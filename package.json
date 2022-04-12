@@ -1,0 +1,23 @@
+{
+  "name": "heroku-node-red",
+  "version": "1.0.0",
+  "description": "My Node-RED for World Cup Bot in Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .\\node_modules\\node-red\\red.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabarna17/heroku-node-red.git"
+  },
+  "author": "Sabarna Chatterjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabarna17/heroku-node-red/issues"
+  },
+  "homepage": "https://github.com/sabarna17/heroku-node-red#readme",
+  "dependencies": {
+    "node-red": "^2.2.2"
+  }
+}
