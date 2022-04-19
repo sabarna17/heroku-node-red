@@ -4,7 +4,7 @@
   "description": "My Node-RED for World Cup Bot in Heroku",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"node ./node_modules/node-red/red.js\" \"node ./git-node-once.js\" \"node ./node-git-job.js\"",
+    "start": "",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
