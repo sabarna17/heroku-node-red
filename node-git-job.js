@@ -15,7 +15,7 @@ function function2() {
 
     async function getData() {
         axios
-            .get('https://noderedonsapbtp.cfapps.us10.hana.ondemand.com/flows',
+            .get('https://sheltered-harbor-46598.herokuapp.com/flows',
                 {
                     // auth: {
                     //     username: 'UserName',

@@ -22,7 +22,7 @@ function function2() {
     cont = base64.decode(data.content);
     // console.log(cont);
     
-    axios.post('https://noderedonsapbtp.cfapps.us10.hana.ondemand.com/flows', cont, 
+    axios.post('https://sheltered-harbor-46598.herokuapp.com/flows', cont, 
             // { auth: { username: 'UserName', password: 'PassWord' } },
             { headers: { 'Content-Type': 'application/json', 'Node-RED-Deployment-Type': 'full' } })
           .then(res => { console.log(`DATA Pulled from Git | statusCode: ${res.status}`) })
